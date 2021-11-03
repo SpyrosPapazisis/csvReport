@@ -10,12 +10,13 @@ FILEPATH = "data.csv"
 
 File Format: 
 
-Station ID:         Integer, representing the bike hire station.
+Station ID: Integer, representing the bike hire station.
 
-Bike                ID: Integer, representing the bike itself.
+Bike ID: Integer, representing the bike itself.
 
-Arrival Datetime:   Datetime in format YYYYMMDDThh:mm:ss Representing the date/time the bike arrived at the station. It is empty if the bike was at the station at the start of                     the reporting period.
-Departure Datetime: Datetime in format YYYYMMDDThh:mm:ss Representing the date/time the bike departed from the station. It is empty if the bike was at the station at the end of                     the reporting period.
+Arrival Datetime: Datetime in format YYYYMMDDThh:mm:ss Representing the date/time the bike arrived at the station. It is empty if the bike was at the station at the start of the reporting period.
+
+Departure Datetime: Datetime in format YYYYMMDDThh:mm:ss Representing the date/time the bike departed from the station. It is empty if the bike was at the station at the end of the reporting period.
 
 TASK.
 
