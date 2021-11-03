@@ -1,6 +1,7 @@
 # csvReport
 
-Problem Statement
+PROBLEM STATEMENT.
+
 A bike hire scheme consists of a number of bike hire situations from which bikes can be rented.
 
 A CSV report can be produced containing the history of bike movements over a specified period.
@@ -16,7 +17,7 @@ Bike                ID: Integer, representing the bike itself.
 Arrival Datetime:   Datetime in format YYYYMMDDThh:mm:ss Representing the date/time the bike arrived at the station. It is empty if the bike was at the station at the start of                     the reporting period.
 Departure Datetime: Datetime in format YYYYMMDDThh:mm:ss Representing the date/time the bike departed from the station. It is empty if the bike was at the station at the end of                     the reporting period.
 
-TASK
+TASK.
 
 Please write a program that will read the CSV report from the current working directory, and print the
 average (mean) journey duration, across all bikes and all stations, for the reporting period, in format
